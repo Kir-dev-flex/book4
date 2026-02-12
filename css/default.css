@@ -1,0 +1,95 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+:root {
+    --main-color: #B9FF66;
+    --black-color: #191A23;
+    --gray-color: #F3F3F3;
+    --wrapper-width: 1240px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.wrapper {
+    max-width: var(--wrapper-width);
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 500;
+    background-color: var(--main-color);
+    padding: 0 7px;
+    border-radius: 7px;
+    max-width: 580px;
+}
+
+.subtitle {
+    font-size: 18px;
+    max-width: 580px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+
+html *::-webkit-scrollbar {
+    width: 10px;
+}
+html *::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--main-color);
+}
+
+@media (max-width:610px) {
+    .text {
+        flex-direction: column;
+    }
+}
