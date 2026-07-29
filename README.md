@@ -1,3 +1,15 @@
-Современный веб-сайт книжного магазина, построенный на чистой семантической верстке HTML5 с применением методологии БЭМ. 
-Модульная архитектура CSS обеспечивает масштабируемость и удобство поддержки. 
-Полностью адаптивный дизайн для всех устройств с использованием Swiper для интерактивного слдайдера. 
+# BookHaven — Online Bookstore Concept
+
+A responsive bookstore landing page built with semantic HTML, modular BEM-based CSS, and vanilla JavaScript.
+
+## Highlights
+
+- Responsive layouts for desktop, tablet, and mobile
+- Modular CSS organized by page section
+- Accessible mobile navigation and accordion interactions
+- Swiper-based reader testimonials
+- Reduced-motion and keyboard-navigation support
+
+## Live demo
+
+[Open the GitHub Pages demo](https://kir-dev-flex.github.io/book4/)
